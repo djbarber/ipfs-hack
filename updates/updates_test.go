@@ -3,8 +3,8 @@ package updates
 import (
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/ipfs/go-ipfs/repo/config"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/djbarber/ipfs-hack/repo/config"
 )
 
 // TestParseVersion just makes sure that we dont commit a bad version number

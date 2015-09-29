@@ -5,12 +5,12 @@ import (
 	"net"
 	"time"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	secio "github.com/ipfs/go-ipfs/p2p/crypto/secio"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	secio "github.com/djbarber/ipfs-hack/p2p/crypto/secio"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 // secureConn wraps another Conn object with an encrypted channel.

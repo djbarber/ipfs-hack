@@ -7,14 +7,14 @@ import (
 	"math"
 	"testing"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	mock "github.com/ipfs/go-ipfs/core/mock"
-	mocknet "github.com/ipfs/go-ipfs/p2p/net/mock"
-	"github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/thirdparty/unit"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/core"
+	coreunix "github.com/djbarber/ipfs-hack/core/coreunix"
+	mock "github.com/djbarber/ipfs-hack/core/mock"
+	mocknet "github.com/djbarber/ipfs-hack/p2p/net/mock"
+	"github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/thirdparty/unit"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 func BenchmarkCat1MB(b *testing.B) { benchmarkVarCat(b, unit.MB*1) }

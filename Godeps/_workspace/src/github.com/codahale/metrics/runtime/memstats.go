@@ -3,7 +3,7 @@ package runtime
 import (
 	"runtime"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/codahale/metrics"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/codahale/metrics"
 )
 
 func init() {

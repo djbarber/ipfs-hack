@@ -9,15 +9,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	pin "github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	u "github.com/ipfs/go-ipfs/util"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	h "github.com/djbarber/ipfs-hack/importer/helpers"
+	merkledag "github.com/djbarber/ipfs-hack/merkledag"
+	mdtest "github.com/djbarber/ipfs-hack/merkledag/test"
+	pin "github.com/djbarber/ipfs-hack/pin"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 func buildTestDag(ds merkledag.DAGService, spl chunk.Splitter) (*merkledag.Node, error) {

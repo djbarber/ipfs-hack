@@ -3,15 +3,15 @@ package namesys
 import (
 	"fmt"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	pb "github.com/ipfs/go-ipfs/namesys/pb"
-	path "github.com/ipfs/go-ipfs/path"
-	routing "github.com/ipfs/go-ipfs/routing"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	pb "github.com/djbarber/ipfs-hack/namesys/pb"
+	path "github.com/djbarber/ipfs-hack/path"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("namesys")

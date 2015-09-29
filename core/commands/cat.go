@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	coreunix "github.com/djbarber/ipfs-hack/core/coreunix"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/cheggaaa/pb"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/cheggaaa/pb"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 const progressBarMinSize = 1024 * 1024 * 8 // show progress bar for outputs > 8MiB

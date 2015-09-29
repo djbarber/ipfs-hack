@@ -8,20 +8,20 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	syncds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	syncds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/core/corerouting"
-	"github.com/ipfs/go-ipfs/core/coreunix"
-	mock "github.com/ipfs/go-ipfs/core/mock"
-	mocknet "github.com/ipfs/go-ipfs/p2p/net/mock"
-	"github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/thirdparty/unit"
-	ds2 "github.com/ipfs/go-ipfs/util/datastore2"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	core "github.com/djbarber/ipfs-hack/core"
+	"github.com/djbarber/ipfs-hack/core/corerouting"
+	"github.com/djbarber/ipfs-hack/core/coreunix"
+	mock "github.com/djbarber/ipfs-hack/core/mock"
+	mocknet "github.com/djbarber/ipfs-hack/p2p/net/mock"
+	"github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/thirdparty/unit"
+	ds2 "github.com/djbarber/ipfs-hack/util/datastore2"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 func TestSupernodeBootstrappedAddCat(t *testing.T) {

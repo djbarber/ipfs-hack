@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	addrutil "github.com/ipfs/go-ipfs/p2p/net/swarm/addr"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	addrutil "github.com/djbarber/ipfs-hack/p2p/net/swarm/addr"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
-	ci "github.com/ipfs/go-ipfs/util/testutil/ci"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
+	ci "github.com/djbarber/ipfs-hack/util/testutil/ci"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func acceptAndHang(l net.Listener) {

@@ -3,13 +3,13 @@ package record
 import (
 	"bytes"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var _ = dag.FetchGraph

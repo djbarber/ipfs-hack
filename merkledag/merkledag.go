@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	bserv "github.com/djbarber/ipfs-hack/blockservice"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("merkledag")

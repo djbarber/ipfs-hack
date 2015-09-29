@@ -4,15 +4,15 @@ import (
 	"errors"
 	"fmt"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	datastore "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	datastore "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	dhtpb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	record "github.com/ipfs/go-ipfs/routing/record"
-	proxy "github.com/ipfs/go-ipfs/routing/supernode/proxy"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	dhtpb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	record "github.com/djbarber/ipfs-hack/routing/record"
+	proxy "github.com/djbarber/ipfs-hack/routing/supernode/proxy"
 )
 
 // Server handles routing queries using a database backend

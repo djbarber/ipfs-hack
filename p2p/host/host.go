@@ -1,13 +1,13 @@
 package host
 
 import (
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("p2p/host")

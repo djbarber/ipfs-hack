@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	dto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	dto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 type fakeResponseWriter struct {

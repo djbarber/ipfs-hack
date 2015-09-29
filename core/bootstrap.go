@@ -8,18 +8,18 @@ import (
 	"sync"
 	"time"
 
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	math2 "github.com/ipfs/go-ipfs/thirdparty/math2"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	math2 "github.com/djbarber/ipfs-hack/thirdparty/math2"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	goprocess "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
-	procctx "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
-	periodicproc "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess/periodic"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	goprocess "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	procctx "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
+	periodicproc "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess/periodic"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // ErrNotEnoughBootstrapPeers signals that we do not have enough bootstrap

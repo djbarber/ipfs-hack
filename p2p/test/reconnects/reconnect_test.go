@@ -7,16 +7,16 @@ import (
 	"testing"
 	"time"
 
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	swarm "github.com/ipfs/go-ipfs/p2p/net/swarm"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	testutil "github.com/ipfs/go-ipfs/p2p/test/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	u "github.com/ipfs/go-ipfs/util"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	swarm "github.com/djbarber/ipfs-hack/p2p/net/swarm"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	testutil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	u "github.com/djbarber/ipfs-hack/util"
 
-	ps "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ps "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func init() {

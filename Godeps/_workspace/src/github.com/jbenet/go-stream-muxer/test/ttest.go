@@ -14,7 +14,7 @@ import (
 	"sync"
 	"testing"
 
-	smux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
+	smux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
 )
 
 var randomness []byte

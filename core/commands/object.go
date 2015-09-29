@@ -10,16 +10,16 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutils "github.com/ipfs/go-ipfs/merkledag/utils"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	dagutils "github.com/djbarber/ipfs-hack/merkledag/utils"
+	path "github.com/djbarber/ipfs-hack/path"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // ErrObjectTooLarge is returned when too much data was read from stdin. current limit 512k

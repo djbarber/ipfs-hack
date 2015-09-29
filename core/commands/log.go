@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 // Golang os.Args overrides * and replaces the character argument with

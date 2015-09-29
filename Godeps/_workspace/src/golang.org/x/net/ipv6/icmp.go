@@ -4,7 +4,7 @@
 
 package ipv6
 
-import "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/internal/iana"
+import "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/internal/iana"
 
 // An ICMPType represents a type of ICMP message.
 type ICMPType int

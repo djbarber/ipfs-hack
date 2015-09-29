@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	dssync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	blockstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	blocksutil "github.com/ipfs/go-ipfs/blocks/blocksutil"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	. "github.com/ipfs/go-ipfs/blockservice"
-	offline "github.com/ipfs/go-ipfs/exchange/offline"
-	u "github.com/ipfs/go-ipfs/util"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dssync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	blockstore "github.com/djbarber/ipfs-hack/blocks/blockstore"
+	blocksutil "github.com/djbarber/ipfs-hack/blocks/blocksutil"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	. "github.com/djbarber/ipfs-hack/blockservice"
+	offline "github.com/djbarber/ipfs-hack/exchange/offline"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 func TestBlocks(t *testing.T) {

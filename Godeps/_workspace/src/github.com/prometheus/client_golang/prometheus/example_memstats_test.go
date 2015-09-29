@@ -16,7 +16,7 @@ package prometheus_test
 import (
 	"runtime"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
 )
 
 var (

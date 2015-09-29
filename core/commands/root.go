@@ -4,9 +4,9 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	unixfs "github.com/ipfs/go-ipfs/core/commands/unixfs"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	unixfs "github.com/djbarber/ipfs-hack/core/commands/unixfs"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("core/commands")

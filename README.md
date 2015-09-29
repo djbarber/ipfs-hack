@@ -1,5 +1,5 @@
 # ipfs implementation in go.
-[![GoDoc](https://godoc.org/github.com/ipfs/go-ipfs?status.svg)](https://godoc.org/github.com/ipfs/go-ipfs) [![Build Status](https://travis-ci.org/ipfs/go-ipfs.svg?branch=master)](https://travis-ci.org/ipfs/go-ipfs)
+[![GoDoc](https://godoc.org/github.com/djbarber/ipfs-hack?status.svg)](https://godoc.org/github.com/djbarber/ipfs-hack) [![Build Status](https://travis-ci.org/ipfs/go-ipfs.svg?branch=master)](https://travis-ci.org/ipfs/go-ipfs)
 
 Ipfs is a global, versioned, peer-to-peer filesystem. It combines good ideas from
 Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm,
@@ -10,7 +10,7 @@ For more info see: https://github.com/ipfs/ipfs
 
 Please put all issues regarding IPFS _design_ in the
 [ipfs repo issues](https://github.com/ipfs/ipfs/issues).
-Please put all issues regarding go IPFS _implementation_ in [this repo](https://github.com/ipfs/go-ipfs/issues).
+Please put all issues regarding go IPFS _implementation_ in [this repo](https://github.com/djbarber/ipfs-hack/issues).
 
 ## Install
 
@@ -22,8 +22,8 @@ We use [gobuilder.me](https://gobuilder.me), a great service that automatically 
 
 You can see the latest builds for your platform at these links:
 
-- [`release` - the last released version](https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs?branch=release)  **<-- recommended**
-- [`master` - development, stable](https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs?branch=master)
+- [`release` - the last released version](https://gobuilder.me/github.com/djbarber/ipfs-hack/cmd/ipfs?branch=release)  **<-- recommended**
+- [`master` - development, stable](https://gobuilder.me/github.com/djbarber/ipfs-hack/cmd/ipfs?branch=master)
 
 From there:
 - click "Download" on the build for your platform
@@ -50,7 +50,7 @@ export PATH=$PATH:$GOPATH/bin
 Then simply:
 
 ```
-go get -u github.com/ipfs/go-ipfs/cmd/ipfs
+go get -u github.com/djbarber/ipfs-hack/cmd/ipfs
 ```
 
 NOTES:
@@ -63,7 +63,7 @@ all dependencies.
 dependencies as well.
 * *WARNING: older versions of OSX FUSE (for Mac OS X) can cause kernel panics when mounting!*
   We strongly recommend you use the [latest version of OSX FUSE](http://osxfuse.github.io/).
-  (See https://github.com/ipfs/go-ipfs/issues/177)
+  (See https://github.com/djbarber/ipfs-hack/issues/177)
 * For more details on setting up FUSE (so that you can mount the filesystem), see the docs folder
 * Shell command completion is available in `misc/completion/ipfs-completion.bash`. Read [docs/command-completion.md](docs/command-completion.md) to learn how to install it.
 * See the [init examples](https://github.com/ipfs/examples/tree/master/examples/init) for how to connect IPFS to systemd or whatever init system your distro uses.
@@ -209,7 +209,7 @@ else) your ipfs config directory (~/.ipfs by default) and rerunning `ipfs init`.
 This will reinitialize the config file to its defaults and clear out the local
 datastore of any bad entries.
 
-For any other problems, check the [issues list](http://github.com/ipfs/go-ipfs/issues)
+For any other problems, check the [issues list](http://github.com/djbarber/ipfs-hack/issues)
 and if you dont see your problem there, either come talk to us on irc (freenode #ipfs) or
 file an issue of your own!
 
@@ -220,7 +220,7 @@ Please see [Contribute.md](contribute.md)!
 
 ## Todo
 
-An IPFS alpha version has been released in February 2015. Things left to be done are all marked as [Issues](https://github.com/ipfs/go-ipfs/issues)
+An IPFS alpha version has been released in February 2015. Things left to be done are all marked as [Issues](https://github.com/djbarber/ipfs-hack/issues)
 
 ## Development Dependencies
 

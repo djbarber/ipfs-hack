@@ -3,19 +3,19 @@ package dht
 import (
 	"sync"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	notif "github.com/ipfs/go-ipfs/notifications"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	queue "github.com/ipfs/go-ipfs/p2p/peer/queue"
-	"github.com/ipfs/go-ipfs/routing"
-	u "github.com/ipfs/go-ipfs/util"
-	pset "github.com/ipfs/go-ipfs/util/peerset"
-	todoctr "github.com/ipfs/go-ipfs/util/todocounter"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	notif "github.com/djbarber/ipfs-hack/notifications"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	queue "github.com/djbarber/ipfs-hack/p2p/peer/queue"
+	"github.com/djbarber/ipfs-hack/routing"
+	u "github.com/djbarber/ipfs-hack/util"
+	pset "github.com/djbarber/ipfs-hack/util/peerset"
+	todoctr "github.com/djbarber/ipfs-hack/util/todocounter"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	process "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
-	ctxproc "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	process "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	ctxproc "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 var maxQueryConcurrency = AlphaValue

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	gp "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	gp "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
 	ci "github.com/jbenet/go-cienv"
 )
 

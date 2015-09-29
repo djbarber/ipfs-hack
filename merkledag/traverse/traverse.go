@@ -4,9 +4,9 @@ package traverse
 import (
 	"errors"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
 )
 
 // Order is an identifier for traversal algorithm orders

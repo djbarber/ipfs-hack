@@ -3,20 +3,20 @@ package coremock
 import (
 	"net"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	syncds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	syncds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	mocknet "github.com/ipfs/go-ipfs/p2p/net/mock"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	ds2 "github.com/ipfs/go-ipfs/util/datastore2"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	commands "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	mocknet "github.com/djbarber/ipfs-hack/p2p/net/mock"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/repo"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	ds2 "github.com/djbarber/ipfs-hack/util/datastore2"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 // NewMockNode constructs an IpfsNode for use in tests.

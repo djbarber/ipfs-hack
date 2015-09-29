@@ -4,9 +4,9 @@ import (
 	"net"
 	"net/http"
 
-	prom "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	prom "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ipfs/go-ipfs/core"
+	"github.com/djbarber/ipfs-hack/core"
 )
 
 func PrometheusOption(path string) ServeOption {

@@ -1,12 +1,12 @@
 package dht_pb
 
 import (
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("dht.pb")

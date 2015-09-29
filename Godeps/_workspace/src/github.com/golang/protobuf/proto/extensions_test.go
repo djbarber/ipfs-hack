@@ -36,8 +36,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	pb "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	pb "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 func TestGetExtensionsWithMissingExtensions(t *testing.T) {

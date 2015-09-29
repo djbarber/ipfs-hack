@@ -6,10 +6,10 @@ import (
 	"html/template"
 	"io"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	tour "github.com/ipfs/go-ipfs/tour"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
+	tour "github.com/djbarber/ipfs-hack/tour"
 )
 
 var tourCmd = &cmds.Command{

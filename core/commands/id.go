@@ -8,15 +8,15 @@ import (
 	"io"
 	"strings"
 
-	b58 "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-base58"
+	b58 "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-base58"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	"github.com/ipfs/go-ipfs/p2p/peer"
-	identify "github.com/ipfs/go-ipfs/p2p/protocol/identify"
-	kb "github.com/ipfs/go-ipfs/routing/kbucket"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	"github.com/djbarber/ipfs-hack/p2p/peer"
+	identify "github.com/djbarber/ipfs-hack/p2p/protocol/identify"
+	kb "github.com/djbarber/ipfs-hack/routing/kbucket"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 const offlineIdErrorMessage = `ID command fails when run without daemon, we are working to fix this.

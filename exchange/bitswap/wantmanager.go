@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	engine "github.com/ipfs/go-ipfs/exchange/bitswap/decision"
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	wantlist "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	engine "github.com/djbarber/ipfs-hack/exchange/bitswap/decision"
+	bsmsg "github.com/djbarber/ipfs-hack/exchange/bitswap/message"
+	bsnet "github.com/djbarber/ipfs-hack/exchange/bitswap/network"
+	wantlist "github.com/djbarber/ipfs-hack/exchange/bitswap/wantlist"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 type WantManager struct {

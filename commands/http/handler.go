@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	cors "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/rs/cors"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	cors "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/rs/cors"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("commands/http")
@@ -351,7 +351,7 @@ func allowOrigin(r *http.Request, cfg *ServerConfig) bool {
 // the API would be vulnerable to. We check that the Referer
 // is allowed by CORS Origin (origins and referrers here will
 // work similarly in the normla uses of the API).
-// See discussion at https://github.com/ipfs/go-ipfs/issues/1532
+// See discussion at https://github.com/djbarber/ipfs-hack/issues/1532
 func allowReferer(r *http.Request, cfg *ServerConfig) bool {
 	referer := r.Referer()
 

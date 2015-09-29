@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	smux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
+	smux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
 	mp "github.com/whyrusleeping/go-multiplex" // Conn is a connection to a remote peer.
 )
 

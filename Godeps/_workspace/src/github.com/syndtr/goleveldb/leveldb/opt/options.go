@@ -8,9 +8,9 @@
 package opt
 
 import (
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/filter"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/cache"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/filter"
 	"math"
 )
 

@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	cors "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/rs/cors"
+	cors "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/rs/cors"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	cmdsHttp "github.com/ipfs/go-ipfs/commands/http"
-	core "github.com/ipfs/go-ipfs/core"
-	corecommands "github.com/ipfs/go-ipfs/core/commands"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	commands "github.com/djbarber/ipfs-hack/commands"
+	cmdsHttp "github.com/djbarber/ipfs-hack/commands/http"
+	core "github.com/djbarber/ipfs-hack/core"
+	corecommands "github.com/djbarber/ipfs-hack/core/commands"
+	config "github.com/djbarber/ipfs-hack/repo/config"
 )
 
 const originEnvKey = "API_ORIGIN"

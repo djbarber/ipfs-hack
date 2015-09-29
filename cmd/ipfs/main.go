@@ -15,20 +15,20 @@ import (
 	"syscall"
 	"time"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	cmdsCli "github.com/ipfs/go-ipfs/commands/cli"
-	cmdsHttp "github.com/ipfs/go-ipfs/commands/http"
-	core "github.com/ipfs/go-ipfs/core"
-	coreCmds "github.com/ipfs/go-ipfs/core/commands"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	u "github.com/ipfs/go-ipfs/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	cmdsCli "github.com/djbarber/ipfs-hack/commands/cli"
+	cmdsHttp "github.com/djbarber/ipfs-hack/commands/http"
+	core "github.com/djbarber/ipfs-hack/core"
+	coreCmds "github.com/djbarber/ipfs-hack/core/commands"
+	repo "github.com/djbarber/ipfs-hack/repo"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
+	u "github.com/djbarber/ipfs-hack/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 // log is the command logger

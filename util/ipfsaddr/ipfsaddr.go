@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("ipfsaddr")

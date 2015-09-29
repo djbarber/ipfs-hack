@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	merkledag "github.com/djbarber/ipfs-hack/merkledag"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("path")

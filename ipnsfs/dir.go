@@ -6,11 +6,11 @@ import (
 	"os"
 	"sync"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	ufspb "github.com/ipfs/go-ipfs/unixfs/pb"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	ufspb "github.com/djbarber/ipfs-hack/unixfs/pb"
 )
 
 var ErrNotYetImplemented = errors.New("not yet implemented")

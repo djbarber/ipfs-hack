@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	namesys "github.com/djbarber/ipfs-hack/namesys"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 var IpnsCmd = &cmds.Command{

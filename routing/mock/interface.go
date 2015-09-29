@@ -5,13 +5,13 @@
 package mockrouting
 
 import (
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	routing "github.com/ipfs/go-ipfs/routing"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	"github.com/ipfs/go-ipfs/util/testutil"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	delay "github.com/djbarber/ipfs-hack/thirdparty/delay"
+	"github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 // Server provides mockrouting Clients

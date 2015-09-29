@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"time"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	routing "github.com/ipfs/go-ipfs/routing"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	routing "github.com/djbarber/ipfs-hack/routing"
 )
 
 var log = logging.Logger("p2p/host/routed")

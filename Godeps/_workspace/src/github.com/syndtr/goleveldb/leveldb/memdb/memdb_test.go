@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/testutil"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/testutil"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
 )
 
 func (p *DB) TestFindLT(key []byte) (rkey, value []byte, err error) {

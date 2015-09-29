@@ -5,10 +5,10 @@ import (
 	"errors"
 	"strings"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // ValidatorFunc is a function that is called to validate a given

@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/ipv4"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/ipv4"
 	"golang.org/x/net/internal/nettest"
 )
 

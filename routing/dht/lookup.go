@@ -1,12 +1,12 @@
 package dht
 
 import (
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	notif "github.com/ipfs/go-ipfs/notifications"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	kb "github.com/ipfs/go-ipfs/routing/kbucket"
-	pset "github.com/ipfs/go-ipfs/util/peerset"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	notif "github.com/djbarber/ipfs-hack/notifications"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	kb "github.com/djbarber/ipfs-hack/routing/kbucket"
+	pset "github.com/djbarber/ipfs-hack/util/peerset"
 )
 
 // Required in order for proper JSON marshaling

@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 )
 
 var ErrInvalidFormat = errors.New("invalid multiaddr-filter format")

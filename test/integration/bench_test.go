@@ -3,8 +3,8 @@ package integrationtest
 import (
 	"testing"
 
-	"github.com/ipfs/go-ipfs/thirdparty/unit"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	"github.com/djbarber/ipfs-hack/thirdparty/unit"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 func benchmarkAddCat(numBytes int64, conf testutil.LatencyConfig, b *testing.B) {

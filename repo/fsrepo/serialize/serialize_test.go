@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
+	config "github.com/djbarber/ipfs-hack/repo/config"
 )
 
 func TestConfig(t *testing.T) {

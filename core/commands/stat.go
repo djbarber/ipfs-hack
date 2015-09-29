@@ -7,13 +7,13 @@ import (
 	"io"
 	"time"
 
-	humanize "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/dustin/go-humanize"
+	humanize "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/dustin/go-humanize"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 var StatsCmd = &cmds.Command{

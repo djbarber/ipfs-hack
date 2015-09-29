@@ -40,7 +40,7 @@ import (
 	"testing"
 
 	pb "./testdata"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 )
 
 // textMessage implements the methods that allow it to marshal and unmarshal

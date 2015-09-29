@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil/record"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fuseutil"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/syscallx"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil/record"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fuseutil"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/syscallx"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // TO TEST:

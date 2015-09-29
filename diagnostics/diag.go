@@ -11,16 +11,16 @@ import (
 	"sync"
 	"time"
 
-	ggio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/io"
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	ctxio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-context/io"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/ipfs/go-ipfs/diagnostics/pb"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ggio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/io"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	ctxio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-context/io"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "github.com/djbarber/ipfs-hack/diagnostics/pb"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("diagnostics")
@@ -109,7 +109,7 @@ func (d *Diagnostics) getPeers() map[peer.ID]int {
 
 func (d *Diagnostics) getDiagInfo() *DiagInfo {
 	di := new(DiagInfo)
-	di.CodeVersion = "github.com/ipfs/go-ipfs"
+	di.CodeVersion = "github.com/djbarber/ipfs-hack"
 	di.ID = d.self.Pretty()
 	di.LifeSpan = time.Since(d.birth)
 	di.Keys = nil // Currently no way to query datastore

@@ -15,9 +15,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/iterator"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
 )
 
 func randomString(r *rand.Rand, n int) []byte {

@@ -34,9 +34,9 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 
-	pb "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	pb "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 var cloneTestMessage = &pb.MyMessage{

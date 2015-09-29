@@ -5,10 +5,10 @@ import (
 	"io"
 	"sync"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 )
 
 var log = logging.Logger("net/mux")

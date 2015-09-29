@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"testing"
 
-	cors "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/rs/cors"
+	cors "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/rs/cors"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	ipfscmd "github.com/ipfs/go-ipfs/core/commands"
-	coremock "github.com/ipfs/go-ipfs/core/mock"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	ipfscmd "github.com/djbarber/ipfs-hack/core/commands"
+	coremock "github.com/djbarber/ipfs-hack/core/mock"
 )
 
 func assertHeaders(t *testing.T, resHeaders http.Header, reqHeaders map[string]string) {

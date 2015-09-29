@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/procfs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/procfs"
 )
 
 func TestProcessCollector(t *testing.T) {

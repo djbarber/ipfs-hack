@@ -9,17 +9,17 @@ import (
 	"os"
 	"syscall"
 
-	fuse "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
-	fs "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	core "github.com/ipfs/go-ipfs/core"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	ftpb "github.com/ipfs/go-ipfs/unixfs/pb"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	fuse "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
+	fs "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	core "github.com/djbarber/ipfs-hack/core"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	path "github.com/djbarber/ipfs-hack/path"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	ftpb "github.com/djbarber/ipfs-hack/unixfs/pb"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 )
 
 var log = logging.Logger("fuse/ipfs")

@@ -6,11 +6,11 @@ import (
 	"io"
 	"path"
 
-	cxt "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	cxt "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	tar "github.com/ipfs/go-ipfs/unixfs/archive/tar"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	tar "github.com/djbarber/ipfs-hack/unixfs/archive/tar"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
 )
 
 // DefaultBufSize is the buffer size for gets. for now, 1MB, which is ~4 blocks.

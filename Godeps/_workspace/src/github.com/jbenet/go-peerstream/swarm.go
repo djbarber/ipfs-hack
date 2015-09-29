@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	smux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
+	smux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
 )
 
 // fd is a (file) descriptor, unix style

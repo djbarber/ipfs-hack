@@ -1,12 +1,12 @@
 package mdutils
 
 import (
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	dssync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	bsrv "github.com/ipfs/go-ipfs/blockservice"
-	"github.com/ipfs/go-ipfs/exchange/offline"
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dssync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	"github.com/djbarber/ipfs-hack/blocks/blockstore"
+	bsrv "github.com/djbarber/ipfs-hack/blockservice"
+	"github.com/djbarber/ipfs-hack/exchange/offline"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
 )
 
 func Mock() dag.DAGService {

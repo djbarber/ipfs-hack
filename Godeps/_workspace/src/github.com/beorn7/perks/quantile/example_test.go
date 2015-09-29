@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
 )
 
 func Example_simple() {

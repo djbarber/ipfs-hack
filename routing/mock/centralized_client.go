@@ -4,14 +4,14 @@ import (
 	"errors"
 	"time"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	routing "github.com/ipfs/go-ipfs/routing"
-	"github.com/ipfs/go-ipfs/util/testutil"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	"github.com/djbarber/ipfs-hack/util/testutil"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("mockrouter")

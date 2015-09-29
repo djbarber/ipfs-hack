@@ -3,11 +3,11 @@
 package offline
 
 import (
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	exchange "github.com/ipfs/go-ipfs/exchange"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	"github.com/djbarber/ipfs-hack/blocks/blockstore"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	exchange "github.com/djbarber/ipfs-hack/exchange"
 )
 
 func Exchange(bs blockstore.Blockstore) exchange.Interface {

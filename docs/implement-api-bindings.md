@@ -19,7 +19,7 @@ A note on streams: IPFS is a streaming protocol. Everything about it can be stre
 
 ## API Transports
 
-Like with everything else, IPFS aims to be flexible regarding the API transports. Currently, the [go-ipfs](https://github.com/ipfs/go-ipfs) implementation supports both an in-process API and an HTTP api. More can be added easily, by mapping the API functions over a transport. (This is similar to how gRPC is also _mapped on top of transports_, like HTTP).
+Like with everything else, IPFS aims to be flexible regarding the API transports. Currently, the [go-ipfs](https://github.com/djbarber/ipfs-hack) implementation supports both an in-process API and an HTTP api. More can be added easily, by mapping the API functions over a transport. (This is similar to how gRPC is also _mapped on top of transports_, like HTTP).
 
 Mapping to a transport involves leveraging the transport's features to express function calls. For example:
 
@@ -45,9 +45,9 @@ In HTTP, our API layering uses a REST-like mapping, where:
 
 ## API Commands
 
-There is a "standard IPFS API" with a set of commands, which we are documenting clearly soon. But this is not yet extracted into its own document. Perhaps -- as part of this API Bindings effort -- we can document it all. It is currently defined as "all the commands exposed by the go-ipfs implementation". You can see [a listing here](https://github.com/ipfs/go-ipfs/blob/916f987de2c35db71815b54bbb9a0a71df829838/core/commands/root.go#L82-L111), or by running `ipfs commands` locally. **The good news is: we should be able to easily write a program that outputs a markdown API specification!**
+There is a "standard IPFS API" with a set of commands, which we are documenting clearly soon. But this is not yet extracted into its own document. Perhaps -- as part of this API Bindings effort -- we can document it all. It is currently defined as "all the commands exposed by the go-ipfs implementation". You can see [a listing here](https://github.com/djbarber/ipfs-hack/blob/916f987de2c35db71815b54bbb9a0a71df829838/core/commands/root.go#L82-L111), or by running `ipfs commands` locally. **The good news is: we should be able to easily write a program that outputs a markdown API specification!**
 
-(Note: the go-ipfs [commands library](https://github.com/ipfs/go-ipfs/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands) also makes sure to keep the CLI and the HTTP API exactly in sync.)
+(Note: the go-ipfs [commands library](https://github.com/djbarber/ipfs-hack/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands) also makes sure to keep the CLI and the HTTP API exactly in sync.)
 
 ## Implementing bindings for the HTTP API
 
@@ -61,7 +61,7 @@ As mentioned above, the API commands map to HTTP with:
 To date, we have two different HTTP API clients:
 
 - [node-ipfs-api](https://github.com/ipfs/node-ipfs-api) - simple javascript wrapper -- best to look at
-- [go-ipfs/commands/http](https://github.com/ipfs/go-ipfs/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands/http) - generalized transport based on the [command definitions](https://github.com/ipfs/go-ipfs/tree/916f987de2c35db71815b54bbb9a0a71df829838/core/commands)
+- [go-ipfs/commands/http](https://github.com/djbarber/ipfs-hack/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands/http) - generalized transport based on the [command definitions](https://github.com/djbarber/ipfs-hack/tree/916f987de2c35db71815b54bbb9a0a71df829838/core/commands)
 
 The Go implementation is good to answer harder questions, like how is multipart handled, or what headers should be set in edge conditions. But the javascript implementation is very concise, and easy to follow.
 
@@ -74,7 +74,7 @@ Currently, node-ipfs-api has three main files
 
 ### Note on multipart + inspecting requests
 
-Despite all the generalization spoken about above, the IPFS API is actually very simple. You can inspect all the requests made with `nc` and the `--api` option (as of [this PR](https://github.com/ipfs/go-ipfs/pull/1598), or `0.3.8`):
+Despite all the generalization spoken about above, the IPFS API is actually very simple. You can inspect all the requests made with `nc` and the `--api` option (as of [this PR](https://github.com/djbarber/ipfs-hack/pull/1598), or `0.3.8`):
 
 ```
 > nc -l 5002 &

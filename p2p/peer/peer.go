@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	b58 "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-base58"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	b58 "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-base58"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
 
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	u "github.com/ipfs/go-ipfs/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	u "github.com/djbarber/ipfs-hack/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("peer")

@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	notif "github.com/ipfs/go-ipfs/notifications"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	ipdht "github.com/ipfs/go-ipfs/routing/dht"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	notif "github.com/djbarber/ipfs-hack/notifications"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	ipdht "github.com/djbarber/ipfs-hack/routing/dht"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 var ErrNotDHT = errors.New("routing service is not a DHT")

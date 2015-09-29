@@ -1,9 +1,9 @@
 package bitswap
 
 import (
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/util/testutil"
+	bsnet "github.com/djbarber/ipfs-hack/exchange/bitswap/network"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 type Network interface {

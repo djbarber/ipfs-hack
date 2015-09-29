@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/facebookgo/atomicfile"
-	"github.com/ipfs/go-ipfs/repo/config"
-	"github.com/ipfs/go-ipfs/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/facebookgo/atomicfile"
+	"github.com/djbarber/ipfs-hack/repo/config"
+	"github.com/djbarber/ipfs-hack/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("fsrepo")

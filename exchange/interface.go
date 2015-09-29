@@ -4,9 +4,9 @@ package exchange
 import (
 	"io"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	key "github.com/ipfs/go-ipfs/blocks/key"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
 )
 
 // Any type that implements exchange.Interface may be used as an IPFS block

@@ -3,13 +3,13 @@ package dht
 import (
 	"fmt"
 
-	ctxfrac "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-context/frac"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	routing "github.com/ipfs/go-ipfs/routing"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	record "github.com/ipfs/go-ipfs/routing/record"
+	ctxfrac "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-context/frac"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	record "github.com/djbarber/ipfs-hack/routing/record"
 )
 
 func (dht *IpfsDHT) GetPublicKey(ctx context.Context, p peer.ID) (ci.PubKey, error) {

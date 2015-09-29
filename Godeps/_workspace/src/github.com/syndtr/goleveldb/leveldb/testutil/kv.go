@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/util"
 )
 
 type KeyValueEntry struct {

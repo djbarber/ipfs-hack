@@ -6,17 +6,17 @@ import (
 	"testing"
 	"time"
 
-	detectrace "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-detect-race"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	travis "github.com/ipfs/go-ipfs/util/testutil/ci/travis"
+	detectrace "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-detect-race"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	travis "github.com/djbarber/ipfs-hack/util/testutil/ci/travis"
 
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	blocksutil "github.com/ipfs/go-ipfs/blocks/blocksutil"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
-	p2ptestutil "github.com/ipfs/go-ipfs/p2p/test/util"
-	mockrouting "github.com/ipfs/go-ipfs/routing/mock"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	blocksutil "github.com/djbarber/ipfs-hack/blocks/blocksutil"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	tn "github.com/djbarber/ipfs-hack/exchange/bitswap/testnet"
+	p2ptestutil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	mockrouting "github.com/djbarber/ipfs-hack/routing/mock"
+	delay "github.com/djbarber/ipfs-hack/thirdparty/delay"
 )
 
 // FIXME the tests are really sensitive to the network delay. fix them to work

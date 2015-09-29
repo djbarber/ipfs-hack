@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func EchoStreamHandler(stream inet.Stream) {

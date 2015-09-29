@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	identify "github.com/ipfs/go-ipfs/p2p/protocol/identify"
-	testutil "github.com/ipfs/go-ipfs/p2p/test/util"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	identify "github.com/djbarber/ipfs-hack/p2p/protocol/identify"
+	testutil "github.com/djbarber/ipfs-hack/p2p/test/util"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func subtestIDService(t *testing.T, postDialWait time.Duration) {

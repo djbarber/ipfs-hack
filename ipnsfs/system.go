@@ -16,16 +16,16 @@ import (
 	"sync"
 	"time"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	namesys "github.com/djbarber/ipfs-hack/namesys"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	path "github.com/djbarber/ipfs-hack/path"
+	pin "github.com/djbarber/ipfs-hack/pin"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("ipnsfs")

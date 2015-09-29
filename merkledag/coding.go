@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
 
-	pb "github.com/ipfs/go-ipfs/merkledag/pb"
-	u "github.com/ipfs/go-ipfs/util"
+	pb "github.com/djbarber/ipfs-hack/merkledag/pb"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // for now, we use a PBNode intermediate thing.

@@ -5,14 +5,14 @@ import (
 	"net"
 	"time"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	filter "github.com/ipfs/go-ipfs/p2p/net/filter"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	filter "github.com/djbarber/ipfs-hack/p2p/net/filter"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 
-	msgio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-msgio"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	msgio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-msgio"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 )
 
 // Map maps Keys (Peer.IDs) to Connections.

@@ -4,8 +4,8 @@
 package readonly
 
 import (
-	core "github.com/ipfs/go-ipfs/core"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
+	core "github.com/djbarber/ipfs-hack/core"
+	mount "github.com/djbarber/ipfs-hack/fuse/mount"
 )
 
 // Mount mounts ipfs at a given location, and returns a mount.Mount instance.

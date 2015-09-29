@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 // separate object so our interfaces are separate :)

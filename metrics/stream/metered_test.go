@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	u "github.com/ipfs/go-ipfs/util"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 type FakeStream struct {

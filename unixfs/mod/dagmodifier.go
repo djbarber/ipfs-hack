@@ -6,20 +6,20 @@ import (
 	"io"
 	"os"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	imp "github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	help "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	pin "github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	imp "github.com/djbarber/ipfs-hack/importer"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	help "github.com/djbarber/ipfs-hack/importer/helpers"
+	trickle "github.com/djbarber/ipfs-hack/importer/trickle"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	pin "github.com/djbarber/ipfs-hack/pin"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var ErrSeekFail = errors.New("failed to seek properly")

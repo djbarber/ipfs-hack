@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/ipfs/go-ipfs/commands/files"
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo/config"
-	u "github.com/ipfs/go-ipfs/util"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/commands/files"
+	"github.com/djbarber/ipfs-hack/core"
+	"github.com/djbarber/ipfs-hack/repo/config"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 type OptMap map[string]interface{}

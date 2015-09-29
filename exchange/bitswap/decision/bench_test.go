@@ -4,10 +4,10 @@ import (
 	"math"
 	"testing"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	"github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
-	"github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/util/testutil"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	"github.com/djbarber/ipfs-hack/exchange/bitswap/wantlist"
+	"github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 // FWIW: At the time of this commit, including a timestamp in task increases

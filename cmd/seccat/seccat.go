@@ -18,10 +18,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	secio "github.com/ipfs/go-ipfs/p2p/crypto/secio"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	secio "github.com/djbarber/ipfs-hack/p2p/crypto/secio"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var verbose = false

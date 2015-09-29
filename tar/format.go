@@ -8,14 +8,14 @@ import (
 	"io/ioutil"
 	"strings"
 
-	importer "github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutil "github.com/ipfs/go-ipfs/merkledag/utils"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	importer "github.com/djbarber/ipfs-hack/importer"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	dagutil "github.com/djbarber/ipfs-hack/merkledag/utils"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 var log = logging.Logger("tarfmt")

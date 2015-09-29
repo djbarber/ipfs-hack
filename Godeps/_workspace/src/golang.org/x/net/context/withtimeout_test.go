@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func ExampleWithTimeout() {

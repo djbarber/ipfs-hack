@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	bitswap "github.com/djbarber/ipfs-hack/exchange/bitswap"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 var BitswapCmd = &cmds.Command{

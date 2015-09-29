@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	ipns "github.com/ipfs/go-ipfs/fuse/ipns"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	rofs "github.com/ipfs/go-ipfs/fuse/readonly"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	ipns "github.com/djbarber/ipfs-hack/fuse/ipns"
+	mount "github.com/djbarber/ipfs-hack/fuse/mount"
+	rofs "github.com/djbarber/ipfs-hack/fuse/readonly"
+	config "github.com/djbarber/ipfs-hack/repo/config"
 )
 
 // amount of time to wait for mount errors

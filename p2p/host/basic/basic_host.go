@@ -3,18 +3,18 @@ package basichost
 import (
 	"io"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	goprocess "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	mstream "github.com/ipfs/go-ipfs/metrics/stream"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	goprocess "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	mstream "github.com/djbarber/ipfs-hack/metrics/stream"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	identify "github.com/ipfs/go-ipfs/p2p/protocol/identify"
-	relay "github.com/ipfs/go-ipfs/p2p/protocol/relay"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	identify "github.com/djbarber/ipfs-hack/p2p/protocol/identify"
+	relay "github.com/djbarber/ipfs-hack/p2p/protocol/relay"
 )
 
 var log = logging.Logger("p2p/host/basic")

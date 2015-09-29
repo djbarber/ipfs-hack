@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"sync"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	nsds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/namespace"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	"github.com/ipfs/go-ipfs/blocks/set"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	nsds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/namespace"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	"github.com/djbarber/ipfs-hack/blocks/set"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("pin")

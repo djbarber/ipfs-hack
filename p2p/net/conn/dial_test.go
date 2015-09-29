@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	tu "github.com/ipfs/go-ipfs/util/testutil"
+	tu "github.com/djbarber/ipfs-hack/util/testutil"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func echoListen(ctx context.Context, listener Listener) {

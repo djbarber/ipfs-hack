@@ -5,10 +5,10 @@ import (
 	"path"
 	"strings"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
 
-	b58 "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-base58"
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	b58 "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-base58"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
 )
 
 // ErrBadPath is returned when a given path is incorrectly formatted
