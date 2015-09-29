@@ -14,7 +14,7 @@ import (
 // Note: this is here -- and not inside cmd/ipfs/init.go -- because of an
 // import dependency issue. TODO: move this into a config/default/ package.
 var DefaultBootstrapAddresses = []string{
-	"/ip4/54.85.5.148/tcp/4001/ipfs/Qmd1SAWhUJHsyLMcu8RSp2ZPUu8BHWBpTSGoGzuWb37L66",  // sun.planets.everywhere.avid.com
+	"/ip4/54.85.5.148/tcp/4001/ipfs/QmeHTLRCe66EcQp6JkXbR6b3ZY1UsNSUdpSEmaDFu4q2fE",  // sun.planets.everywhere.avid.com
 }
 
 // BootstrapPeer is a peer used to bootstrap the network.
