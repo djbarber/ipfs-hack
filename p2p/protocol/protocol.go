@@ -3,7 +3,7 @@ package protocol
 import (
 	"io"
 
-	msgio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-msgio"
+	msgio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-msgio"
 )
 
 // ID is an identifier used to write protocol headers in streams.

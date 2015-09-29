@@ -5,16 +5,16 @@ import (
 	"errors"
 	"time"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	"github.com/ipfs/go-ipfs/p2p/host"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	routing "github.com/ipfs/go-ipfs/routing"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	proxy "github.com/ipfs/go-ipfs/routing/supernode/proxy"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	"github.com/djbarber/ipfs-hack/p2p/host"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	proxy "github.com/djbarber/ipfs-hack/routing/supernode/proxy"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("supernode")

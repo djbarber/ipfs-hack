@@ -3,16 +3,16 @@ package dht
 import (
 	"sync"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	notif "github.com/ipfs/go-ipfs/notifications"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	"github.com/ipfs/go-ipfs/routing"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	kb "github.com/ipfs/go-ipfs/routing/kbucket"
-	record "github.com/ipfs/go-ipfs/routing/record"
-	pset "github.com/ipfs/go-ipfs/util/peerset"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	notif "github.com/djbarber/ipfs-hack/notifications"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	"github.com/djbarber/ipfs-hack/routing"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	kb "github.com/djbarber/ipfs-hack/routing/kbucket"
+	record "github.com/djbarber/ipfs-hack/routing/record"
+	pset "github.com/djbarber/ipfs-hack/util/peerset"
 )
 
 // asyncQueryBuffer is the size of buffered channels in async queries. This

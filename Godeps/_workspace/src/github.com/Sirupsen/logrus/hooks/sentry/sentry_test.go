@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/getsentry/raven-go"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 )
 
 const (

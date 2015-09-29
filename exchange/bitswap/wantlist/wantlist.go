@@ -3,7 +3,7 @@
 package wantlist
 
 import (
-	key "github.com/ipfs/go-ipfs/blocks/key"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
 	"sort"
 	"sync"
 )

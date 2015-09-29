@@ -1,4 +1,4 @@
-# [go-ipfs/cmd/ipfs](http://github.com/ipfs/go-ipfs/tree/master/cmd/ipfs)
+# [go-ipfs/cmd/ipfs](http://github.com/djbarber/ipfs-hack/tree/master/cmd/ipfs)
 
 ![](https://raw.githubusercontent.com/ipfs/logo/master/ipfs-logo-text-256-ice.png)
 
@@ -14,7 +14,7 @@ ipfs
 
 ## Install from [gobuilder.me](https://gobuilder.me/)
 
-If you're viewing this in [gobuilder](https://gobuilder.me/github.com/ipfs/go-ipfs/cmd/ipfs), chose the binary that suits you best at the end of this page. Download it, unzip it, and move the binary into place.
+If you're viewing this in [gobuilder](https://gobuilder.me/github.com/djbarber/ipfs-hack/cmd/ipfs), chose the binary that suits you best at the end of this page. Download it, unzip it, and move the binary into place.
 
 ## Usage
 

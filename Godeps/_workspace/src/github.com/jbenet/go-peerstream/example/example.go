@@ -6,8 +6,8 @@ import (
 	"net"
 	"os"
 
-	ps "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
-	spdy "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer/spdystream"
+	ps "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
+	spdy "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer/spdystream"
 )
 
 func main() {

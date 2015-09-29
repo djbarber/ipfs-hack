@@ -5,11 +5,11 @@ import (
 	"io"
 	"testing"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	testutil "github.com/ipfs/go-ipfs/p2p/test/util"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	testutil "github.com/djbarber/ipfs-hack/p2p/test/util"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func TestHostSimple(t *testing.T) {

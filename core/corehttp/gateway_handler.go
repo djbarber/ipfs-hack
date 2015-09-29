@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	humanize "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/dustin/go-humanize"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	humanize "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/dustin/go-humanize"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	"github.com/ipfs/go-ipfs/routing"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	core "github.com/djbarber/ipfs-hack/core"
+	"github.com/djbarber/ipfs-hack/importer"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	path "github.com/djbarber/ipfs-hack/path"
+	"github.com/djbarber/ipfs-hack/routing"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
 )
 
 const (
@@ -209,7 +209,7 @@ func (i *gatewayHandler) getOrHeadHandler(w http.ResponseWriter, r *http.Request
 	if !foundIndex {
 		if r.Method != "HEAD" {
 			// construct the correct back link
-			// https://github.com/ipfs/go-ipfs/issues/1365
+			// https://github.com/djbarber/ipfs-hack/issues/1365
 			var backLink string = urlPath
 
 			// don't go further up than /ipfs/$hash/

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
 )
 
 var testCases = map[string]string{

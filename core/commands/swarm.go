@@ -8,13 +8,13 @@ import (
 	"path"
 	"sort"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	swarm "github.com/ipfs/go-ipfs/p2p/net/swarm"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	iaddr "github.com/ipfs/go-ipfs/util/ipfsaddr"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	swarm "github.com/djbarber/ipfs-hack/p2p/net/swarm"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	iaddr "github.com/djbarber/ipfs-hack/util/ipfsaddr"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	mafilter "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/whyrusleeping/multiaddr-filter"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	mafilter "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/whyrusleeping/multiaddr-filter"
 )
 
 type stringList struct {

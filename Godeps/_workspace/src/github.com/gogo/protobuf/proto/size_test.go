@@ -36,7 +36,7 @@ import (
 	"testing"
 
 	pb "./testdata"
-	. "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	. "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 )
 
 var messageWithExtension1 = &pb.MyMessage{Count: Int32(7)}

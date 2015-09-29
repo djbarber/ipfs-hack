@@ -4,9 +4,9 @@ import (
 	"errors"
 	"io"
 
-	datastore "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	datastore "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
+	config "github.com/djbarber/ipfs-hack/repo/config"
 )
 
 var (

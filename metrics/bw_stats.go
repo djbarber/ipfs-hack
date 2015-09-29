@@ -1,11 +1,11 @@
 package metrics
 
 import (
-	gm "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/whyrusleeping/go-metrics"
+	gm "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/whyrusleeping/go-metrics"
 	"sync"
 
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
 )
 
 type Stats struct {

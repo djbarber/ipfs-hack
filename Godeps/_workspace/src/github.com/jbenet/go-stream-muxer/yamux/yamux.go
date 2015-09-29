@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	yamux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/hashicorp/yamux"
-	smux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
+	yamux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/hashicorp/yamux"
+	smux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
 )
 
 // stream implements smux.Stream using a ss.Stream

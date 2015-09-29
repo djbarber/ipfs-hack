@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	files "github.com/ipfs/go-ipfs/commands/files"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	files "github.com/djbarber/ipfs-hack/commands/files"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // Parse parses the input commandline string (cmd, flags, and args).

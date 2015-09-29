@@ -3,9 +3,9 @@ package namesys
 import (
 	"strings"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	path "github.com/ipfs/go-ipfs/path"
+	path "github.com/djbarber/ipfs-hack/path"
 )
 
 type resolver interface {

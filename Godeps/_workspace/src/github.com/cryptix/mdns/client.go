@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/miekg/dns"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/ipv4"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/ipv6"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/miekg/dns"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/ipv4"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/ipv6"
 )
 
 // ServiceEntry is returned after we query for a service

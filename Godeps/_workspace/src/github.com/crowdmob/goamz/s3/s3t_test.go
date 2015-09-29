@@ -1,9 +1,9 @@
 package s3_test
 
 import (
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/crowdmob/goamz/aws"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/crowdmob/goamz/s3"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/crowdmob/goamz/s3/s3test"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/crowdmob/goamz/aws"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/crowdmob/goamz/s3"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/crowdmob/goamz/s3/s3test"
 	"gopkg.in/check.v1"
 )
 

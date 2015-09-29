@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/internal/iana"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/ipv6"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/internal/iana"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/ipv6"
 	"golang.org/x/net/icmp"
 	"golang.org/x/net/internal/nettest"
 )

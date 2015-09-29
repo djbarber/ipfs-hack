@@ -3,16 +3,16 @@ package bitswap
 import (
 	"time"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	ds_sync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blockstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	p2ptestutil "github.com/ipfs/go-ipfs/p2p/test/util"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	datastore2 "github.com/ipfs/go-ipfs/util/datastore2"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	ds_sync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blockstore "github.com/djbarber/ipfs-hack/blocks/blockstore"
+	tn "github.com/djbarber/ipfs-hack/exchange/bitswap/testnet"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	p2ptestutil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	delay "github.com/djbarber/ipfs-hack/thirdparty/delay"
+	datastore2 "github.com/djbarber/ipfs-hack/util/datastore2"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 // WARNING: this uses RandTestBogusIdentity DO NOT USE for NON TESTS!

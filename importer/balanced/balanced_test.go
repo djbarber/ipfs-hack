@@ -9,14 +9,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	pin "github.com/ipfs/go-ipfs/pin"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	u "github.com/ipfs/go-ipfs/util"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	h "github.com/djbarber/ipfs-hack/importer/helpers"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	mdtest "github.com/djbarber/ipfs-hack/merkledag/test"
+	pin "github.com/djbarber/ipfs-hack/pin"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // TODO: extract these tests and more as a generic layout test suite

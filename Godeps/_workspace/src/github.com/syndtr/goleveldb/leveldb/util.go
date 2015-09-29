@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/syndtr/goleveldb/leveldb/storage"
 )
 
 func shorten(str string) string {

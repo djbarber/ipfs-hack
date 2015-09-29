@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
 )
 
 func TestOpenFlagsAccmodeMask(t *testing.T) {

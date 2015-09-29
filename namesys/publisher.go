@@ -6,19 +6,19 @@ import (
 	"fmt"
 	"time"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	pb "github.com/ipfs/go-ipfs/namesys/pb"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
-	routing "github.com/ipfs/go-ipfs/routing"
-	record "github.com/ipfs/go-ipfs/routing/record"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	pb "github.com/djbarber/ipfs-hack/namesys/pb"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	path "github.com/djbarber/ipfs-hack/path"
+	pin "github.com/djbarber/ipfs-hack/pin"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	record "github.com/djbarber/ipfs-hack/routing/record"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 // ErrExpiredRecord should be returned when an ipns record is

@@ -1,8 +1,8 @@
 package meterconn
 
 import (
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
-	metrics "github.com/ipfs/go-ipfs/metrics"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
 )
 
 type MeteredConn struct {

@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/internal/iana"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/internal/iana"
 )
 
 func marshal2292HopLimit(b []byte, cm *ControlMessage) []byte {

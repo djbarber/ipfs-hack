@@ -3,15 +3,15 @@ package testutil
 import (
 	"testing"
 
-	metrics "github.com/ipfs/go-ipfs/metrics"
-	bhost "github.com/ipfs/go-ipfs/p2p/host/basic"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	swarm "github.com/ipfs/go-ipfs/p2p/net/swarm"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	tu "github.com/ipfs/go-ipfs/util/testutil"
+	metrics "github.com/djbarber/ipfs-hack/metrics"
+	bhost "github.com/djbarber/ipfs-hack/p2p/host/basic"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	swarm "github.com/djbarber/ipfs-hack/p2p/net/swarm"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	tu "github.com/djbarber/ipfs-hack/util/testutil"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func GenSwarmNetwork(t *testing.T, ctx context.Context) *swarm.Network {

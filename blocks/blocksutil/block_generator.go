@@ -1,6 +1,6 @@
 package blocksutil
 
-import "github.com/ipfs/go-ipfs/blocks"
+import "github.com/djbarber/ipfs-hack/blocks"
 
 func NewBlockGenerator() BlockGenerator {
 	return BlockGenerator{}

@@ -8,9 +8,9 @@ import (
 	"crypto/x509"
 	"errors"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 
-	pb "github.com/ipfs/go-ipfs/p2p/crypto/pb"
+	pb "github.com/djbarber/ipfs-hack/p2p/crypto/pb"
 )
 
 type RsaPrivateKey struct {

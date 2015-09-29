@@ -10,17 +10,17 @@ import (
 	"os"
 	"strings"
 
-	fuse "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
-	fs "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	fuse "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
+	fs "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	core "github.com/ipfs/go-ipfs/core"
-	nsfs "github.com/ipfs/go-ipfs/ipnsfs"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	core "github.com/djbarber/ipfs-hack/core"
+	nsfs "github.com/djbarber/ipfs-hack/ipnsfs"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
 )
 
 var log = logging.Logger("fuse/ipns")

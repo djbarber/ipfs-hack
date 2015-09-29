@@ -3,16 +3,16 @@ package proxy
 import (
 	"errors"
 
-	ggio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/io"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ggio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/io"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	dhtpb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	kbucket "github.com/ipfs/go-ipfs/routing/kbucket"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	dhtpb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	kbucket "github.com/djbarber/ipfs-hack/routing/kbucket"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 const ProtocolSNR = "/ipfs/supernoderouting"

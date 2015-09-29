@@ -6,16 +6,16 @@ import (
 	"net"
 	"time"
 
-	msgio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-msgio"
-	mpool "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-msgio/mpool"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	u "github.com/ipfs/go-ipfs/util"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	msgio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-msgio"
+	mpool "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-msgio/mpool"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	u "github.com/djbarber/ipfs-hack/util"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 )
 
 var log = logging.Logger("conn")

@@ -3,11 +3,11 @@ package ipnsfs
 import (
 	"sync"
 
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mod "github.com/ipfs/go-ipfs/unixfs/mod"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	mod "github.com/djbarber/ipfs-hack/unixfs/mod"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 type File struct {

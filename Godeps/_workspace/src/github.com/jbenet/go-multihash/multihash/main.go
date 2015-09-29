@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
-	mhopts "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash/opts"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	mhopts "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash/opts"
 )
 
 var usage = `usage: %s [options] [FILE]

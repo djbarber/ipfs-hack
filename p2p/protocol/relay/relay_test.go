@@ -4,13 +4,13 @@ import (
 	"io"
 	"testing"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	relay "github.com/ipfs/go-ipfs/p2p/protocol/relay"
-	testutil "github.com/ipfs/go-ipfs/p2p/test/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	relay "github.com/djbarber/ipfs-hack/p2p/protocol/relay"
+	testutil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 var log = logging.Logger("relay_test")

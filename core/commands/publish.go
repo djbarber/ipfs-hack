@@ -6,13 +6,13 @@ import (
 	"io"
 	"strings"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	crypto "github.com/ipfs/go-ipfs/p2p/crypto"
-	path "github.com/ipfs/go-ipfs/path"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	crypto "github.com/djbarber/ipfs-hack/p2p/crypto"
+	path "github.com/djbarber/ipfs-hack/path"
 )
 
 var errNotOnline = errors.New("This command must be run in online mode. Try running 'ipfs daemon' first.")

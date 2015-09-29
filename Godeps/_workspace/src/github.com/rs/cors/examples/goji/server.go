@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/rs/cors"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/rs/cors"
 	"github.com/zenazn/goji"
 )
 

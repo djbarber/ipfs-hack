@@ -3,12 +3,12 @@ package helpers
 import (
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	"github.com/djbarber/ipfs-hack/pin"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
 )
 
 // BlockSizeLimit specifies the maximum size an imported block can have.

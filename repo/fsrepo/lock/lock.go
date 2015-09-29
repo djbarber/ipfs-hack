@@ -8,8 +8,8 @@ import (
 	"strings"
 	"syscall"
 
-	lock "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/camlistore/lock"
-	"github.com/ipfs/go-ipfs/util"
+	lock "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/camlistore/lock"
+	"github.com/djbarber/ipfs-hack/util"
 )
 
 // LockFile is the filename of the repo lock, relative to config dir

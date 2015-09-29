@@ -30,8 +30,8 @@
 package pbutil
 
 import (
-	. "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	. "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	. "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	. "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 // FROM https://github.com/golang/protobuf/blob/master/proto/all_test.go.

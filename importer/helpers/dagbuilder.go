@@ -1,8 +1,8 @@
 package helpers
 
 import (
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/pin"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	"github.com/djbarber/ipfs-hack/pin"
 )
 
 // NodeCB is callback function for dag generation

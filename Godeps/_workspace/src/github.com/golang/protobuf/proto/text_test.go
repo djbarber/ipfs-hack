@@ -39,10 +39,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 
-	proto3pb "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto/proto3_proto"
-	pb "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
+	proto3pb "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto/proto3_proto"
+	pb "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto/testdata"
 )
 
 // textMessage implements the methods that allow it to marshal and unmarshal

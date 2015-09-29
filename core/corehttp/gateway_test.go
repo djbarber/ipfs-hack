@@ -8,15 +8,15 @@ import (
 	"strings"
 	"testing"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	core "github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	path "github.com/ipfs/go-ipfs/path"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	core "github.com/djbarber/ipfs-hack/core"
+	coreunix "github.com/djbarber/ipfs-hack/core/coreunix"
+	namesys "github.com/djbarber/ipfs-hack/namesys"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	path "github.com/djbarber/ipfs-hack/path"
+	repo "github.com/djbarber/ipfs-hack/repo"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 type mockNamesys map[string]path.Path

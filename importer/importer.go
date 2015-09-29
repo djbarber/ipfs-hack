@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipfs/go-ipfs/commands/files"
-	bal "github.com/ipfs/go-ipfs/importer/balanced"
-	"github.com/ipfs/go-ipfs/importer/chunk"
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/pin"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	"github.com/djbarber/ipfs-hack/commands/files"
+	bal "github.com/djbarber/ipfs-hack/importer/balanced"
+	"github.com/djbarber/ipfs-hack/importer/chunk"
+	h "github.com/djbarber/ipfs-hack/importer/helpers"
+	trickle "github.com/djbarber/ipfs-hack/importer/trickle"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	"github.com/djbarber/ipfs-hack/pin"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("importer")

@@ -5,18 +5,18 @@ import (
 	"sort"
 	"sync"
 
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	bhost "github.com/ipfs/go-ipfs/p2p/host/basic"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	p2putil "github.com/ipfs/go-ipfs/p2p/test/util"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	bhost "github.com/djbarber/ipfs-hack/p2p/host/basic"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	p2putil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
-	goprocessctx "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	goprocessctx "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // mocknet implements mocknet.Mocknet

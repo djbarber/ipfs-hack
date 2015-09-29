@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	backoff "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/cenkalti/backoff"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks/blockstore"
-	routing "github.com/ipfs/go-ipfs/routing"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	backoff "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/cenkalti/backoff"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks/blockstore"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("reprovider")

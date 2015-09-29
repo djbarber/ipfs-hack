@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	u "github.com/ipfs/go-ipfs/util"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	u "github.com/djbarber/ipfs-hack/util"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 )
 
 // ZeroLocalTCPAddress is the "zero" tcp local multiaddr. This means:

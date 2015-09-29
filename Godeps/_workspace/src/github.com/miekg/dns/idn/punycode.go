@@ -3,7 +3,7 @@ package idn
 
 import (
 	"bytes"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/miekg/dns"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/miekg/dns"
 	"strings"
 	"unicode"
 )

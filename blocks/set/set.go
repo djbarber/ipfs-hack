@@ -2,9 +2,9 @@
 package set
 
 import (
-	"github.com/ipfs/go-ipfs/blocks/bloom"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	"github.com/djbarber/ipfs-hack/blocks/bloom"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("blockset")

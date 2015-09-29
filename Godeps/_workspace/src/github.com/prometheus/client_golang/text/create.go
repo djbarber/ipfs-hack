@@ -27,8 +27,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
-	dto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
+	dto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 // MetricFamilyToText converts a MetricFamily proto message into text format and

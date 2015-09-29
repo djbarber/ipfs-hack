@@ -1,7 +1,7 @@
 package peerset
 
 import (
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 	"sync"
 )
 

@@ -4,10 +4,10 @@ package routing
 import (
 	"errors"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 // ErrNotFound is returned when a search fails to find anything

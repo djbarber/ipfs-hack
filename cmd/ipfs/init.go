@@ -7,13 +7,13 @@ import (
 	"os"
 	"path"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	assets "github.com/ipfs/go-ipfs/assets"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	assets "github.com/djbarber/ipfs-hack/assets"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	namesys "github.com/djbarber/ipfs-hack/namesys"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
 )
 
 const nBitsForKeypairDefault = 2048

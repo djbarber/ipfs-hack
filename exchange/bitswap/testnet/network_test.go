@@ -4,14 +4,14 @@ import (
 	"sync"
 	"testing"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	blocks "github.com/ipfs/go-ipfs/blocks"
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	mockrouting "github.com/ipfs/go-ipfs/routing/mock"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	blocks "github.com/djbarber/ipfs-hack/blocks"
+	bsmsg "github.com/djbarber/ipfs-hack/exchange/bitswap/message"
+	bsnet "github.com/djbarber/ipfs-hack/exchange/bitswap/network"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	mockrouting "github.com/djbarber/ipfs-hack/routing/mock"
+	delay "github.com/djbarber/ipfs-hack/thirdparty/delay"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 func TestSendMessageAsyncButWaitForResponse(t *testing.T) {

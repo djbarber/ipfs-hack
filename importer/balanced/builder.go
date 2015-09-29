@@ -3,8 +3,8 @@ package balanced
 import (
 	"errors"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	h "github.com/djbarber/ipfs-hack/importer/helpers"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
 )
 
 func BalancedLayout(db *h.DagBuilderHelper) (*dag.Node, error) {

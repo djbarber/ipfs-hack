@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 
-	dto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	dto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
 )
 
 // A Summary captures individual observations from an event or sample stream and

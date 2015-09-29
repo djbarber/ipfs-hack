@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/huin/goupnp"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/huin/goupnp/dcps/internetgateway1"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/huin/goupnp"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/huin/goupnp/dcps/internetgateway1"
 )
 
 // Use discovered WANPPPConnection1 services to find external IP addresses.

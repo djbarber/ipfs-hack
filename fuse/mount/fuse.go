@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/goprocess"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/goprocess"
 )
 
 // mount implements go-ipfs/fuse/mount

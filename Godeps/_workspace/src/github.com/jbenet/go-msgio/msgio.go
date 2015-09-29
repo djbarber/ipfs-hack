@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	mpool "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-msgio/mpool"
+	mpool "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-msgio/mpool"
 )
 
 // NBO is NetworkByteOrder

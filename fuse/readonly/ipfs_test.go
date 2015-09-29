@@ -12,18 +12,18 @@ import (
 	"sync"
 	"testing"
 
-	fstest "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
+	fstest "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	core "github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	coremock "github.com/ipfs/go-ipfs/core/mock"
-	importer "github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	u "github.com/ipfs/go-ipfs/util"
-	ci "github.com/ipfs/go-ipfs/util/testutil/ci"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	core "github.com/djbarber/ipfs-hack/core"
+	coreunix "github.com/djbarber/ipfs-hack/core/coreunix"
+	coremock "github.com/djbarber/ipfs-hack/core/mock"
+	importer "github.com/djbarber/ipfs-hack/importer"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	u "github.com/djbarber/ipfs-hack/util"
+	ci "github.com/djbarber/ipfs-hack/util/testutil/ci"
 )
 
 func maybeSkipFuseTests(t *testing.T) {

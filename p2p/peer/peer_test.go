@@ -6,12 +6,12 @@ import (
 	"strings"
 	"testing"
 
-	ic "github.com/ipfs/go-ipfs/p2p/crypto"
-	. "github.com/ipfs/go-ipfs/p2p/peer"
-	u "github.com/ipfs/go-ipfs/util"
-	tu "github.com/ipfs/go-ipfs/util/testutil"
+	ic "github.com/djbarber/ipfs-hack/p2p/crypto"
+	. "github.com/djbarber/ipfs-hack/p2p/peer"
+	u "github.com/djbarber/ipfs-hack/util"
+	tu "github.com/djbarber/ipfs-hack/util/testutil"
 
-	b58 "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-base58"
+	b58 "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-base58"
 )
 
 var gen1 keyset // generated

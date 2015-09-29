@@ -7,19 +7,19 @@ import (
 	"testing"
 	"time"
 
-	ggio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/io"
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	dssync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ggio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/io"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dssync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	mocknet "github.com/ipfs/go-ipfs/p2p/net/mock"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	routing "github.com/ipfs/go-ipfs/routing"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
-	record "github.com/ipfs/go-ipfs/routing/record"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	mocknet "github.com/djbarber/ipfs-hack/p2p/net/mock"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
+	record "github.com/djbarber/ipfs-hack/routing/record"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 func TestGetFailures(t *testing.T) {

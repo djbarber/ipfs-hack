@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	wantlist "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	pq "github.com/ipfs/go-ipfs/thirdparty/pq"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	wantlist "github.com/djbarber/ipfs-hack/exchange/bitswap/wantlist"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	pq "github.com/djbarber/ipfs-hack/thirdparty/pq"
 )
 
 type peerRequestQueue interface {

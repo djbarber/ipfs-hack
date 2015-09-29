@@ -6,16 +6,16 @@ import (
 	"os"
 	gopath "path"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	"github.com/ipfs/go-ipfs/commands/files"
-	core "github.com/ipfs/go-ipfs/core"
-	importer "github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/pin"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	unixfs "github.com/ipfs/go-ipfs/unixfs"
+	"github.com/djbarber/ipfs-hack/commands/files"
+	core "github.com/djbarber/ipfs-hack/core"
+	importer "github.com/djbarber/ipfs-hack/importer"
+	chunk "github.com/djbarber/ipfs-hack/importer/chunk"
+	merkledag "github.com/djbarber/ipfs-hack/merkledag"
+	"github.com/djbarber/ipfs-hack/pin"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	unixfs "github.com/djbarber/ipfs-hack/unixfs"
 )
 
 var log = logging.Logger("coreunix")

@@ -3,9 +3,9 @@ package fstestutil
 import (
 	"os"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 // SimpleFS is a trivial FS that just implements the Root method.

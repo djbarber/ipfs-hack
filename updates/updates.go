@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 
-	semver "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	update "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/inconshreveable/go-update"
-	check "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/inconshreveable/go-update/check"
+	semver "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	update "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/inconshreveable/go-update"
+	check "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/inconshreveable/go-update/check"
 )
 
 const (

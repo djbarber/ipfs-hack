@@ -4,20 +4,20 @@ import (
 	"strings"
 	"sync"
 
-	semver "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	ggio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/io"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	semver "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	ggio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/io"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	mstream "github.com/ipfs/go-ipfs/metrics/stream"
-	host "github.com/ipfs/go-ipfs/p2p/host"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	protocol "github.com/ipfs/go-ipfs/p2p/protocol"
-	pb "github.com/ipfs/go-ipfs/p2p/protocol/identify/pb"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
-	lgbl "github.com/ipfs/go-ipfs/util/eventlog/loggables"
+	mstream "github.com/djbarber/ipfs-hack/metrics/stream"
+	host "github.com/djbarber/ipfs-hack/p2p/host"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	protocol "github.com/djbarber/ipfs-hack/p2p/protocol"
+	pb "github.com/djbarber/ipfs-hack/p2p/protocol/identify/pb"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
+	lgbl "github.com/djbarber/ipfs-hack/util/eventlog/loggables"
 )
 
 var log = logging.Logger("net/identify")

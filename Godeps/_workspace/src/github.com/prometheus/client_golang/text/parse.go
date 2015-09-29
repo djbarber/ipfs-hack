@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	dto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	dto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/prometheus/client_golang/model"
 )
 
 // A stateFn is a function that represents a state in a state machine. By

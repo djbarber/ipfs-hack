@@ -3,7 +3,7 @@ package commands
 import (
 	"reflect"
 
-	"github.com/ipfs/go-ipfs/util"
+	"github.com/djbarber/ipfs-hack/util"
 )
 
 // Types of Command options

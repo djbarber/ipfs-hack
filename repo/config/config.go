@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	u "github.com/ipfs/go-ipfs/util"
-	logging "github.com/ipfs/go-ipfs/vendor/go-log-v1.0.0"
+	u "github.com/djbarber/ipfs-hack/util"
+	logging "github.com/djbarber/ipfs-hack/vendor/go-log-v1.0.0"
 )
 
 var log = logging.Logger("config")

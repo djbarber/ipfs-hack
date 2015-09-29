@@ -3,9 +3,9 @@ package decision
 import (
 	"time"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	wl "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	wl "github.com/djbarber/ipfs-hack/exchange/bitswap/wantlist"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 // keySet is just a convenient alias for maps of keys, where we only care

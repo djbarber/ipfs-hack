@@ -3,10 +3,10 @@ package merkledag
 import (
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	mh "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multihash"
-	key "github.com/ipfs/go-ipfs/blocks/key"
+	mh "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multihash"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
 )
 
 // Node represents a node in the IPFS Merkle DAG.

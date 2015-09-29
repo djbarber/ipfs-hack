@@ -19,7 +19,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 )
 
 var errInvalidVarint = errors.New("invalid varint32 encountered")

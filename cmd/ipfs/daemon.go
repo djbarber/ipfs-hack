@@ -11,19 +11,19 @@ import (
 	"strings"
 	"sync"
 
-	_ "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/codahale/metrics/runtime"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	_ "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/codahale/metrics/runtime"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/core"
-	commands "github.com/ipfs/go-ipfs/core/commands"
-	corehttp "github.com/ipfs/go-ipfs/core/corehttp"
-	"github.com/ipfs/go-ipfs/core/corerouting"
-	conn "github.com/ipfs/go-ipfs/p2p/net/conn"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	util "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	"github.com/djbarber/ipfs-hack/core"
+	commands "github.com/djbarber/ipfs-hack/core/commands"
+	corehttp "github.com/djbarber/ipfs-hack/core/corehttp"
+	"github.com/djbarber/ipfs-hack/core/corerouting"
+	conn "github.com/djbarber/ipfs-hack/p2p/net/conn"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
+	util "github.com/djbarber/ipfs-hack/util"
 )
 
 const (

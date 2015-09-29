@@ -13,8 +13,8 @@ import (
 	"sync"
 	"testing"
 
-	ps "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
-	smux "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
+	ps "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-peerstream"
+	smux "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-stream-muxer"
 )
 
 var randomness []byte

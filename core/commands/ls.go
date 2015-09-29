@@ -6,12 +6,12 @@ import (
 	"io"
 	"text/tabwriter"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	unixfs "github.com/ipfs/go-ipfs/unixfs"
-	unixfspb "github.com/ipfs/go-ipfs/unixfs/pb"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	core "github.com/djbarber/ipfs-hack/core"
+	merkledag "github.com/djbarber/ipfs-hack/merkledag"
+	path "github.com/djbarber/ipfs-hack/path"
+	unixfs "github.com/djbarber/ipfs-hack/unixfs"
+	unixfspb "github.com/djbarber/ipfs-hack/unixfs/pb"
 )
 
 type LsLink struct {

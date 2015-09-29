@@ -11,16 +11,16 @@ import (
 	"sync"
 	"testing"
 
-	fstest "github.com/ipfs/go-ipfs/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
-	racedet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-detect-race"
+	fstest "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/bazil.org/fuse/fs/fstestutil"
+	racedet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-detect-race"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	core "github.com/ipfs/go-ipfs/core"
-	nsfs "github.com/ipfs/go-ipfs/ipnsfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	offroute "github.com/ipfs/go-ipfs/routing/offline"
-	u "github.com/ipfs/go-ipfs/util"
-	ci "github.com/ipfs/go-ipfs/util/testutil/ci"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	core "github.com/djbarber/ipfs-hack/core"
+	nsfs "github.com/djbarber/ipfs-hack/ipnsfs"
+	namesys "github.com/djbarber/ipfs-hack/namesys"
+	offroute "github.com/djbarber/ipfs-hack/routing/offline"
+	u "github.com/djbarber/ipfs-hack/util"
+	ci "github.com/djbarber/ipfs-hack/util/testutil/ci"
 )
 
 func maybeSkipFuseTests(t *testing.T) {

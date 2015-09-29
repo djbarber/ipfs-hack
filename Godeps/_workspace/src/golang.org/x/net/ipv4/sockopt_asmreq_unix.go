@@ -11,7 +11,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/internal/iana"
+	"github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/internal/iana"
 )
 
 func setsockoptIPMreq(fd, name int, ifi *net.Interface, grp net.IP) error {

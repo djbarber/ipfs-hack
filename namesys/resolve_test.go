@@ -3,12 +3,12 @@ package namesys
 import (
 	"testing"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	path "github.com/ipfs/go-ipfs/path"
-	mockrouting "github.com/ipfs/go-ipfs/routing/mock"
-	u "github.com/ipfs/go-ipfs/util"
-	testutil "github.com/ipfs/go-ipfs/util/testutil"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	path "github.com/djbarber/ipfs-hack/path"
+	mockrouting "github.com/djbarber/ipfs-hack/routing/mock"
+	u "github.com/djbarber/ipfs-hack/util"
+	testutil "github.com/djbarber/ipfs-hack/util/testutil"
 )
 
 func TestRoutingResolve(t *testing.T) {

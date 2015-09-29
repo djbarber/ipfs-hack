@@ -3,9 +3,9 @@ package chunk
 import (
 	"bytes"
 	"fmt"
-	"github.com/ipfs/go-ipfs/blocks"
-	"github.com/ipfs/go-ipfs/blocks/key"
-	"github.com/ipfs/go-ipfs/util"
+	"github.com/djbarber/ipfs-hack/blocks"
+	"github.com/djbarber/ipfs-hack/blocks/key"
+	"github.com/djbarber/ipfs-hack/util"
 	"io"
 	"testing"
 )

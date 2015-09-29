@@ -1,9 +1,9 @@
 package coreunix
 
 import (
-	core "github.com/ipfs/go-ipfs/core"
-	path "github.com/ipfs/go-ipfs/path"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	core "github.com/djbarber/ipfs-hack/core"
+	path "github.com/djbarber/ipfs-hack/path"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
 )
 
 func Cat(n *core.IpfsNode, pstr string) (*uio.DagReader, error) {

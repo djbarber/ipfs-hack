@@ -17,10 +17,10 @@ import (
 	"syscall"
 	"time"
 
-	serial "github.com/ipfs/go-ipfs/repo/fsrepo/serialize"
+	serial "github.com/djbarber/ipfs-hack/repo/fsrepo/serialize"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 )
 
 // GetNumNodes returns the number of testbed nodes configured in the testbed directory

@@ -3,11 +3,11 @@ package trickle
 import (
 	"errors"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	h "github.com/djbarber/ipfs-hack/importer/helpers"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
 )
 
 // layerRepeat specifies how many times to append a child tree of a

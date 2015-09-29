@@ -4,16 +4,16 @@ import (
 	"testing"
 	"time"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	dssync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	bs "github.com/ipfs/go-ipfs/blockservice"
-	"github.com/ipfs/go-ipfs/exchange/offline"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	"github.com/ipfs/go-ipfs/util"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dssync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	"github.com/djbarber/ipfs-hack/blocks/blockstore"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	bs "github.com/djbarber/ipfs-hack/blockservice"
+	"github.com/djbarber/ipfs-hack/exchange/offline"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	"github.com/djbarber/ipfs-hack/util"
 )
 
 func randNode() (*mdag.Node, key.Key) {

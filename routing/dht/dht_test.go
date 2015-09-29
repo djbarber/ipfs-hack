@@ -9,20 +9,20 @@ import (
 	"testing"
 	"time"
 
-	ds "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
-	dssync "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	ds "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dssync "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/sync"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	netutil "github.com/ipfs/go-ipfs/p2p/test/util"
-	routing "github.com/ipfs/go-ipfs/routing"
-	record "github.com/ipfs/go-ipfs/routing/record"
-	u "github.com/ipfs/go-ipfs/util"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	netutil "github.com/djbarber/ipfs-hack/p2p/test/util"
+	routing "github.com/djbarber/ipfs-hack/routing"
+	record "github.com/djbarber/ipfs-hack/routing/record"
+	u "github.com/djbarber/ipfs-hack/util"
 
-	ci "github.com/ipfs/go-ipfs/util/testutil/ci"
-	travisci "github.com/ipfs/go-ipfs/util/testutil/ci/travis"
+	ci "github.com/djbarber/ipfs-hack/util/testutil/ci"
+	travisci "github.com/djbarber/ipfs-hack/util/testutil/ci/travis"
 )
 
 var testCaseValues = map[key.Key][]byte{}

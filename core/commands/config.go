@@ -10,11 +10,11 @@ import (
 	"os"
 	"os/exec"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	repo "github.com/djbarber/ipfs-hack/repo"
+	config "github.com/djbarber/ipfs-hack/repo/config"
+	fsrepo "github.com/djbarber/ipfs-hack/repo/fsrepo"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 type ConfigField struct {

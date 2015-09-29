@@ -1,6 +1,6 @@
 package unixfs
 
-import cmds "github.com/ipfs/go-ipfs/commands"
+import cmds "github.com/djbarber/ipfs-hack/commands"
 
 var UnixFSCmd = &cmds.Command{
 	Helptext: cmds.HelpText{

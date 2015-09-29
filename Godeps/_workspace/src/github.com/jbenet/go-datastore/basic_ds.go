@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	dsq "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore/query"
+	dsq "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore/query"
 )
 
 // Here are some basic datastore implementations.

@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
-	key "github.com/ipfs/go-ipfs/blocks/key"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
+	key "github.com/djbarber/ipfs-hack/blocks/key"
+	dag "github.com/djbarber/ipfs-hack/merkledag"
+	mdtest "github.com/djbarber/ipfs-hack/merkledag/test"
 
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 func TestAddLink(t *testing.T) {

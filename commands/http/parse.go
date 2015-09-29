@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	files "github.com/ipfs/go-ipfs/commands/files"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	files "github.com/djbarber/ipfs-hack/commands/files"
 )
 
 // Parse parses the data in a http.Request and returns a command Request object

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	tu "github.com/ipfs/go-ipfs/util/testutil"
+	tu "github.com/djbarber/ipfs-hack/util/testutil"
 
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 // Test basic features of the bucket struct

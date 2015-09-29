@@ -1,10 +1,10 @@
 package swarm
 
 import (
-	conn "github.com/ipfs/go-ipfs/p2p/net/conn"
-	addrutil "github.com/ipfs/go-ipfs/p2p/net/swarm/addr"
+	conn "github.com/djbarber/ipfs-hack/p2p/net/conn"
+	addrutil "github.com/djbarber/ipfs-hack/p2p/net/swarm/addr"
 
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 )
 
 // ListenAddresses returns a list of addresses at which this swarm listens.

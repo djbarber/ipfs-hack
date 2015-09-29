@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	rand "github.com/dustin/randbo"
-	dstore "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-datastore"
+	dstore "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-datastore"
 )
 
 func RunBatchTest(t *testing.T, ds dstore.Batching) {

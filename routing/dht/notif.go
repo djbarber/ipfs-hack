@@ -1,9 +1,9 @@
 package dht
 
 import (
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
 
-	inet "github.com/ipfs/go-ipfs/p2p/net"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
 )
 
 // netNotifiee defines methods to be used with the IpfsDHT

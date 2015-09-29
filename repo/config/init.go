@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	ci "github.com/ipfs/go-ipfs/p2p/crypto"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
+	ci "github.com/djbarber/ipfs-hack/p2p/crypto"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
 )
 
 func Init(out io.Writer, nBitsForKeypair int) (*Config, error) {

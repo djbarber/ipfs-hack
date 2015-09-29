@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	log "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	ma "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
-	manet "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
+	log "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	ma "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr"
+	manet "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-multiaddr-net"
 )
 
 var (

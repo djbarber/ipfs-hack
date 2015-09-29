@@ -6,13 +6,13 @@ import (
 	"path"
 	"time"
 
-	proto "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	cxt "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
+	proto "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	cxt "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	upb "github.com/ipfs/go-ipfs/unixfs/pb"
+	mdag "github.com/djbarber/ipfs-hack/merkledag"
+	ft "github.com/djbarber/ipfs-hack/unixfs"
+	uio "github.com/djbarber/ipfs-hack/unixfs/io"
+	upb "github.com/djbarber/ipfs-hack/unixfs/pb"
 )
 
 // Writer is a utility structure that helps to write

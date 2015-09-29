@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	u "github.com/ipfs/go-ipfs/util"
+	cmds "github.com/djbarber/ipfs-hack/commands"
+	corerepo "github.com/djbarber/ipfs-hack/core/corerepo"
+	u "github.com/djbarber/ipfs-hack/util"
 )
 
 var RepoCmd = &cmds.Command{

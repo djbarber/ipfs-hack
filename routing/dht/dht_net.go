@@ -4,12 +4,12 @@ import (
 	"errors"
 	"time"
 
-	ggio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/gogo/protobuf/io"
-	ctxio "github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/jbenet/go-context/io"
-	context "github.com/ipfs/go-ipfs/Godeps/_workspace/src/golang.org/x/net/context"
-	inet "github.com/ipfs/go-ipfs/p2p/net"
-	peer "github.com/ipfs/go-ipfs/p2p/peer"
-	pb "github.com/ipfs/go-ipfs/routing/dht/pb"
+	ggio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/gogo/protobuf/io"
+	ctxio "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/github.com/jbenet/go-context/io"
+	context "github.com/djbarber/ipfs-hack/Godeps/_workspace/src/golang.org/x/net/context"
+	inet "github.com/djbarber/ipfs-hack/p2p/net"
+	peer "github.com/djbarber/ipfs-hack/p2p/peer"
+	pb "github.com/djbarber/ipfs-hack/routing/dht/pb"
 )
 
 // handleNewStream implements the inet.StreamHandler
