@@ -15,7 +15,7 @@ ADD bin/container_shacheck /usr/local/bin/shacheck
 RUN adduser -D -h /data -u 1000 ipfs \
  && mkdir -p /data/ipfs && chown ipfs:ipfs /data/ipfs \
  && apk add --update bash curl wget ca-certificates zip \
- && wget https://gobuilder.me/get/github.com/ipfs/go-ipfs/cmd/ipfs/ipfs_${VERSION}_linux-386.zip \
+ && wget https://gobuilder.me/get/github.com/djbarber/ipfs-hack/cmd/ipfs/ipfs_${VERSION}_linux-386.zip \
  && /bin/bash /usr/local/bin/shacheck ${VERSION} ipfs_${VERSION}_linux-386.zip \
  && unzip ipfs_${VERSION}_linux-386.zip \
  && rm ipfs_${VERSION}_linux-386.zip \
